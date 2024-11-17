@@ -42,6 +42,13 @@ Each health record is associated with a unique ID (record_id) that acts as the k
 
 4. Interact with the Canister
    - Use the `dfx` commands or integrate with a front-end to call the smart contract methods.
+  
+5. Running frontend
+   ```bash
+   cd src
+   cd Challenge_frontend
+   npm install
+   npm run dev
 
 ## API Reference
 
@@ -113,7 +120,7 @@ await create_record("record123", {
   age = 35;
   diagnosis = "Flu";
   treatment = "Rest and fluids";
-  record_date = Time.now();
+  record_date = 20/12/24;
 });
 ```
 
@@ -131,7 +138,7 @@ await update_record("record123", {
   age = 36;
   diagnosis = "Flu";
   treatment = "Medications and rest";
-  record_date = Time.now();
+  record_date = 27/12/24;
 });
 ```
 
