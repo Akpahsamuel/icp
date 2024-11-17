@@ -13,7 +13,7 @@ actor {
     age : Nat;
     diagnosis : Text;
     treatment : Text;
-    record_date : Time;
+    record_date : Text;
   };
 
   // HashMap to store health records:
